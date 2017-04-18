@@ -524,6 +524,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libsony_face.so:system/vendor/lib/libsony_face.so \
+	vendor/sony/rhine-common/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
