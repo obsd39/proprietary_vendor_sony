@@ -15,7 +15,6 @@
 PRODUCT_PACKAGES += \
 	irsc_util \
 	mlog_qmi_service \
-	mm-qcamera-daemon \
 	msm_irqbalance \
 	netmgrd \
 	pm-proxy \
@@ -26,8 +25,6 @@ PRODUCT_PACKAGES += \
 	sensors \
 	ta_qmi_service \
 	tad_static \
-	a420_pfp \
-	a420_pm4 \
 	a530_gpmu \
 	a530_pfp \
 	a530_pm4 \
@@ -226,12 +223,14 @@ PRODUCT_PACKAGES += \
 	libchromatix_imx400_snapshot \
 	libconfigdb \
 	libdiag \
+	libdiagjni \
 	libdrmfs \
 	libdrmtime \
 	libdsi_netctrl \
 	libdsutils \
-	libfastcvadsp_stub \
 	libfastcvopt \
+	libfastrpc_utf_stub \
+	libfiltergenerator \
 	libflash_pmic \
 	libgsl \
 	libidl \
@@ -259,10 +258,12 @@ PRODUCT_PACKAGES += \
 	libmmcamera2_q3a_core \
 	libmmcamera2_sensor_modules \
 	libmmcamera2_stats_algorithm \
+	libmmcamera2_stats_lib \
 	libmmcamera2_stats_modules \
 	libmmcamera_chromaflash_lib \
 	libmmcamera_dbg \
 	libmmcamera_dummyalgo \
+	libmmcamera_edgesmooth_lib \
 	libmmcamera_eebinparse \
 	libmmcamera_eeprom_util \
 	libmmcamera_eztune_module \
@@ -275,6 +276,7 @@ PRODUCT_PACKAGES += \
 	libmmcamera_hvx_zzHDR \
 	libmmcamera_imglib \
 	libmmcamera_imglib_faceproc_adspstub \
+	libmmcamera_imglib_faceproc_adspstub2 \
 	libmmcamera_imx214 \
 	libmmcamera_imx258 \
 	libmmcamera_imx300 \
@@ -328,6 +330,8 @@ PRODUCT_PACKAGES += \
 	libmmcamera_ppbase_module \
 	libmmcamera_ppeiscore \
 	libmmcamera_quadracfa \
+	libmmcamera_sac_lib \
+	libmmcamera_sat_dummy_lib \
 	libmmcamera_stillmore_lib \
 	libmmcamera_sw2d_lib \
 	libmmcamera_thread_services \
@@ -343,6 +347,7 @@ PRODUCT_PACKAGES += \
 	libnetmgr \
 	libomx-dts \
 	liboptizoom \
+	libpdmapper \
 	libperipheral_client \
 	libqcci_legacy \
 	libqdi \
@@ -355,6 +360,7 @@ PRODUCT_PACKAGES += \
 	libqmi_csi \
 	libqmi_encdec \
 	libqmiservices \
+	libqmiservices_ext \
 	libqomx_jpegdec \
 	libqomx_jpegenc \
 	libqomx_jpegenc_pipe \
