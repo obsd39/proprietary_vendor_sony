@@ -13,6 +13,7 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+	adsprpcd \
 	irsc_util \
 	mlog_qmi_service \
 	msm_irqbalance \
@@ -172,6 +173,7 @@ PRODUCT_PACKAGES += \
 	libadiertac \
 	libadreno_utils \
 	libadsprpc \
+	libadsp_default_listener \
 	libaudcal \
 	libaudioalsa \
 	libc2d30-a3xx \
