@@ -14,6 +14,7 @@
 
 PRODUCT_PACKAGES += \
 	cnss-daemon \
+	adsprpcd \
 	irsc_util \
 	mlog_qmi_service \
 	msm_irqbalance \
@@ -216,6 +217,7 @@ PRODUCT_PACKAGES += \
 	libadiertac \
 	libadreno_utils \
 	libadsprpc \
+	libadsp_default_listener \
 	libaudcal \
 	libaudioalsa \
 	libbtnv \
