@@ -79,5 +79,15 @@ LOCAL_MODULE_TAGS   := optional
 LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := QPerformance
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/framework/QPerformance.jar
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
 endif
 endif

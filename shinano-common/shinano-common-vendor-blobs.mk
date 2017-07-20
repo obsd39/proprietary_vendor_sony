@@ -41,6 +41,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
 	vendor/sony/shinano-common/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/sony/shinano-common/proprietary/bin/wvkbd:system/bin/wvkbd \
+	vendor/sony/shinano-common/proprietary/bin/iop:system/bin/iop\
+	vendor/sony/shinano-common/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:system/etc/permissions/com.qualcomm.qti.Performance.xml \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -190,6 +192,9 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
 	vendor/sony/shinano-common/proprietary/lib/libta.so:system/lib/libta.so \
 	vendor/sony/shinano-common/proprietary/lib/lib_uncontrolled_rooting_status.so:system/lib/lib_uncontrolled_rooting_status.so \
+	vendor/sony/shinano-common/proprietary/lib/libqti-iop.so:system/lib/libqti-iop.so \
+	vendor/sony/shinano-common/proprietary/lib/libqti-iop-client.so:system/lib/libqti-iop-client.so \
+	vendor/sony/shinano-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
 	vendor/sony/shinano-common/proprietary/sbin/tad_static:system/sbin/tad_static \
 	vendor/sony/shinano-common/proprietary/sbin/wait4tad_static:system/sbin/wait4tad_static \
 	vendor/sony/shinano-common/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
@@ -442,4 +447,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libTimeService \
     TimeService \
-    libtime_genoff
+    libtime_genoff \
+    QPerformance
+    
+PRODUCT_BOOT_JARS += QPerformance
