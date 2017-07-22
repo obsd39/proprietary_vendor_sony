@@ -13,8 +13,10 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+        adsprpcd \
+	capi_v2_aptX_Classic \
+	capi_v2_aptX_HD \
 	cnss-daemon \
-	adsprpcd \
 	irsc_util \
 	mlog_qmi_service \
 	msm_irqbalance \
