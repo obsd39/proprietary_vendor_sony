@@ -148,6 +148,9 @@ PRODUCT_PACKAGES += \
 	tzwvcpybuf_b06 \
 	tzwvcpybuf_mdt \
 	eglSubDriverAndroid \
+	libaptX-1.0.0-rel-Android21-ARMv7A \
+	libaptXHD-1.0.0-rel-Android21-ARMv7A \
+	libaptXScheduler \
 	libEGL_adreno \
 	libGLESv1_CM_adreno \
 	libGLESv2_adreno \
