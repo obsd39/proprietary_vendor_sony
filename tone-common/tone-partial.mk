@@ -70,8 +70,6 @@ PRODUCT_PACKAGES += \
 	fidocrypto_b05 \
 	fidocrypto_b06 \
 	fidocrypto_mdt \
-	fw_bcmdhd \
-	fw_bcmdhd_apsta \
 	touch_module_id_0x90 \
 	touch_module_id_0x91 \
 	touch_module_id_0x92 \
@@ -175,8 +173,8 @@ PRODUCT_PACKAGES += \
 	libactuator_lc898217xc \
 	libadiertac \
 	libadreno_utils \
-	libadsprpc \
 	libadsp_default_listener \
+	libadsprpc \
 	libaudcal \
 	libaudioalsa \
 	libc2d30-a3xx \
@@ -390,3 +388,4 @@ PRODUCT_PACKAGES += \
 	libtrueportrait \
 	libubifocus \
 	libxml
+
