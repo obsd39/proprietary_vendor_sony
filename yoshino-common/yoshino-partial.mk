@@ -13,7 +13,7 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-        adsprpcd \
+	adsprpcd \
 	capi_v2_aptX_Classic \
 	capi_v2_aptX_HD \
 	cnss-daemon \
@@ -218,8 +218,8 @@ PRODUCT_PACKAGES += \
 	libactuator_lc898217xc \
 	libadiertac \
 	libadreno_utils \
-	libadsprpc \
 	libadsp_default_listener \
+	libadsprpc \
 	libaudcal \
 	libaudioalsa \
 	libbtnv \
