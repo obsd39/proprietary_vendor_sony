@@ -164,6 +164,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
 	vendor/sony/rhine-common/proprietary/lib/libcammw.so:system/lib/libcammw.so \
 	vendor/sony/rhine-common/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
+	vendor/sony/rhine-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 	vendor/sony/rhine-common/proprietary/lib/libcrashlevelmatrix.so:system/lib/libcrashlevelmatrix.so \
 	vendor/sony/rhine-common/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
 	vendor/sony/rhine-common/proprietary/lib/libdtcpipplayer.so:system/lib/libdtcpipplayer.so \
