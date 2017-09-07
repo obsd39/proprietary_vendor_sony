@@ -13,8 +13,8 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	cnss-daemon \
 	adsprpcd \
+	cnss-daemon \
 	irsc_util \
 	mlog_qmi_service \
 	msm_irqbalance \
@@ -270,7 +270,6 @@ PRODUCT_PACKAGES += \
 	libchromatix_imx400_snapshot \
 	libconfigdb \
 	libdiag \
-	libdiagjni \
 	libdrmfs \
 	libdrmtime \
 	libdsi_netctrl \
@@ -396,8 +395,6 @@ PRODUCT_PACKAGES += \
 	libnetmgr \
 	libomx-dts \
 	liboptizoom \
-	libpdmapper \
-	libpdnotifier \
 	libperipheral_client \
 	libqcci_legacy \
 	libqdi \

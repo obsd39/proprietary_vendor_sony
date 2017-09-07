@@ -226,7 +226,6 @@ PRODUCT_PACKAGES += \
 	libchromatix_imx400_snapshot \
 	libconfigdb \
 	libdiag \
-	libdiagjni \
 	libdrmfs \
 	libdrmtime \
 	libdsi_netctrl \
@@ -350,7 +349,6 @@ PRODUCT_PACKAGES += \
 	libnetmgr \
 	libomx-dts \
 	liboptizoom \
-	libpdmapper \
 	libperipheral_client \
 	libqcci_legacy \
 	libqdi \
@@ -388,4 +386,3 @@ PRODUCT_PACKAGES += \
 	libtrueportrait \
 	libubifocus \
 	libxml
-
