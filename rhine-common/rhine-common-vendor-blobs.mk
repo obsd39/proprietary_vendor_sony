@@ -460,6 +460,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libloc_xtra.so:system/vendor/lib/libloc_xtra.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+	vendor/sony/rhine-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
@@ -511,6 +512,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+	vendor/sony/rhine-common/proprietary/vendor/lib/libril-qc-qmi-2.so:system/vendor/lib/libril-qc-qmi-2.so \
+	vendor/sony/rhine-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
