@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
 	vendor/sony/rhine-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
 	vendor/sony/rhine-common/proprietary/bin/irsc_util:system/bin/irsc_util \
-	vendor/sony/rhine-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
 	vendor/sony/rhine-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/sony/rhine-common/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/sony/rhine-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
@@ -141,7 +140,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/lib/camera/libexcal_streaming_ctrl_plugin.so:system/lib/camera/libexcal_streaming_ctrl_plugin.so \
 	vendor/sony/rhine-common/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
 	vendor/sony/rhine-common/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
-	vendor/sony/rhine-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	vendor/sony/rhine-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
 	vendor/sony/rhine-common/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so \
 	vendor/sony/rhine-common/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
@@ -175,12 +173,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
 	vendor/sony/rhine-common/proprietary/lib/lib_get_s1_cert_common_name.so:system/lib/lib_get_s1_cert_common_name.so \
 	vendor/sony/rhine-common/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
-	vendor/sony/rhine-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/sony/rhine-common/proprietary/lib/libidd.so:system/lib/libidd.so \
 	vendor/sony/rhine-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-	vendor/sony/rhine-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-	vendor/sony/rhine-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-	vendor/sony/rhine-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
 	vendor/sony/rhine-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
 	vendor/sony/rhine-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
 	vendor/sony/rhine-common/proprietary/lib/libMiscTAApi.so:system/lib/libMiscTAApi.so \
@@ -296,7 +290,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -453,12 +446,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libloc_xtra.so:system/vendor/lib/libloc_xtra.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
