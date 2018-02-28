@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
 	vendor/sony/rhine-common/proprietary/bin/irsc_util:system/bin/irsc_util \
 	vendor/sony/rhine-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+	vendor/sony/rhine-common/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
 	vendor/sony/rhine-common/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/sony/rhine-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
 	vendor/sony/rhine-common/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -499,6 +500,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+	vendor/sony/rhine-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libril-qc-qmi-2.so:system/vendor/lib/libril-qc-qmi-2.so \
