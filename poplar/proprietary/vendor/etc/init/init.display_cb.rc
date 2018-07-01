@@ -1,0 +1,35 @@
+# Copyright (C) 2017 Sony Mobile Communications Inc.
+#
+# display_cb configuration
+#
+
+on post-fs-data
+    # create directory for display
+    mkdir /data/display 0770 system system
+
+on property:vold.decrypt=trigger_restart_framework
+    start display_cb
+
+# Display color mode
+on property:persist.sys.colorgamut.mode=0
+    write /sys/devices/mdss_dsi_panel/c_mode 100
+    start display_cb
+
+on property:persist.sys.colorgamut.mode=1
+    write /sys/devices/mdss_dsi_panel/c_mode 101
+    start display_cb
+
+on property:persist.sys.colorgamut.mode=2
+    write /sys/devices/mdss_dsi_panel/c_mode 102
+    start display_cb
+
+on property:init.svc.bootanim=stopped
+    start display_cb
+
+# display color mode
+service display_cb /system/vendor/bin/hw/display_cb
+    class main
+    user system
+    group system
+    oneshot
+    disabled

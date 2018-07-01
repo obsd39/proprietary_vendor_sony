@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ramdump_target>
+	<section src="executable">
+		<scn_type>TLCORE_SECTION_TYPE_TEXT</scn_type>
+		<scn_attribute>
+			<bitmask>TLCORE_SECTION_ATTRIBUTE_REPORT</bitmask>
+		</scn_attribute>
+		<scn_data_type>TLCORE_DATA_TYPE_ZLIB</scn_data_type>
+		<scn_data_fmt>TLCORE_DATA_FORMAT_STRAIGHT</scn_data_fmt>
+		<name>kernel.log</name>
+		<command>/vendor/bin/dmesg</command>
+	</section>
+</ramdump_target>

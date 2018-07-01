@@ -1,0 +1,22 @@
+# Copyright (C) 2017 Sony Mobile Communications Inc.
+#
+# touchbacklightd configuration
+#
+
+on property:init.svc.illumination=running
+    start touchbacklightd
+
+on property:init.svc.illumination=stopped
+    stop touchbacklightd
+
+on property:sys.backlight_on=0
+    write /sys/devices/virtual/input/clearpad/force_sleep 2
+
+on property:sys.backlight_on=1
+    write /sys/devices/virtual/input/clearpad/force_sleep 0
+
+service touchbacklightd /system/vendor/bin/hw/touchbacklightd
+    disabled
+    user system
+    group system
+    writepid /dev/cpuset/system-background/tasks
