@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ramdump_config>
+	<dump_configs>
+		<tlcore>
+			<destinations>
+				<destination priority="0">
+					<mount_name>data</mount_name>
+					<path>/data/media/0/CrashDump</path>
+				</destination>
+				<destination priority="1">
+					<mount_name>data</mount_name>
+					<path>/data/crashdump</path>
+				</destination>
+				<destination priority="2">
+					<mount_name>ext_sdcard</mount_name>
+					<path>/sdcard1/CrashDump</path>
+				</destination>
+			</destinations>
+
+			<min_free_space>50MB</min_free_space>
+
+			<filename_format>crash-subsystem-%Y%m%d-%H%M%S/tlcore</filename_format>
+		</tlcore>
+
+		<partial_tlcore>
+			<destinations>
+				<destination priority="0">
+					<mount_name>data</mount_name>
+					<path>/data/crashdata</path>
+				</destination>
+				<destination priority="1">
+					<mount_name>data</mount_name>
+					<path>/idd/crashdata</path>
+				</destination>
+			</destinations>
+
+			<min_free_space>20MB</min_free_space>
+
+			<filename_format>tlcore_subsystem_%02d</filename_format>
+
+			<max_file_count>10</max_file_count>
+		</partial_tlcore>
+
+		<scn_dumper_config>
+			<thread_num>2</thread_num>
+			<segment_block_size>512</segment_block_size>
+		</scn_dumper_config>
+	</dump_configs>
+</ramdump_config>

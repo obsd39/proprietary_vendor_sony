@@ -1,0 +1,6 @@
+service cleanlostfound /vendor/bin/sh /vendor/etc/cleanlostfound.sh
+    oneshot
+    disabled
+    group system root idd cache
+    user root
+    seclabel u:r:lostfound:s0

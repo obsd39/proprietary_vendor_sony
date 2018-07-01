@@ -16,6 +16,147 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/maple/proprietary/bin/cacaoserver:system/bin/cacaoserver \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fs_empty.mbn:system/etc/customization/modem/amss_fs_empty.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_a1_austria_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_a1_austria_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_att_us_tar.mbn:system/etc/customization/modem/amss_fsg_maple_att_us_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_beeline_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_beeline_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_bell_ca_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_bell_ca_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_bite_latvia_tar.mbn:system/etc/customization/modem/amss_fsg_maple_bite_latvia_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_bite_lithuania_tar.mbn:system/etc/customization/modem/amss_fsg_maple_bite_lithuania_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_bouygues_france_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_bouygues_france_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_canada_tar.mbn:system/etc/customization/modem/amss_fsg_maple_canada_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_cellc_za_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_cellc_za_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_china_tar.mbn:system/etc/customization/modem/amss_fsg_maple_china_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_claro_br_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_claro_br_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_claro_br_tar.mbn:system/etc/customization/modem/amss_fsg_maple_claro_br_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_claro_cl_tar.mbn:system/etc/customization/modem/amss_fsg_maple_claro_cl_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_claro_co_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_claro_co_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_claro_co_tar.mbn:system/etc/customization/modem/amss_fsg_maple_claro_co_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_claro_pe_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_claro_pe_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_dna_finland_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dna_finland_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_ee_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_ee_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_elisa_estonia_tar.mbn:system/etc/customization/modem/amss_fsg_maple_elisa_estonia_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_elisa_finland_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_elisa_finland_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_emt_estonia_volte_vilte_tar.mbn:system/etc/customization/modem/amss_fsg_maple_emt_estonia_volte_vilte_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_entel_cl_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_entel_cl_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_entel_pe_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_entel_pe_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_euro_dl256qam_only_tar.mbn:system/etc/customization/modem/amss_fsg_maple_euro_dl256qam_only_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_euro_dl256qam_ul64qam_tar.mbn:system/etc/customization/modem/amss_fsg_maple_euro_dl256qam_ul64qam_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_freedom_ca_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_freedom_ca_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_gteb_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_gteb_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_hutch_austria_tar.mbn:system/etc/customization/modem/amss_fsg_maple_hutch_austria_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_hutch_austria_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_hutch_austria_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_hutch_denmark_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_hutch_denmark_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_hutch_ireland_tar.mbn:system/etc/customization/modem/amss_fsg_maple_hutch_ireland_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_hutch_italy_tar.mbn:system/etc/customization/modem/amss_fsg_maple_hutch_italy_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_hutch_sweden_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_hutch_sweden_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_hutch_uk_tar.mbn:system/etc/customization/modem/amss_fsg_maple_hutch_uk_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_hutch_uk_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_hutch_uk_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_ir51_ir92_ims_gte_tar.mbn:system/etc/customization/modem/amss_fsg_maple_ir51_ir92_ims_gte_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_ir51_ir92_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_ir51_ir92_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_jazztel_tar.mbn:system/etc/customization/modem/amss_fsg_maple_jazztel_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_kpn_netherlands_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_kpn_netherlands_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_kpn_tar.mbn:system/etc/customization/modem/amss_fsg_maple_kpn_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_kt_kr_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_kt_kr_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_lguplus_kr_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_lguplus_kr_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_megafon_ru_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_megafon_ru_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_meo_portugal_tar.mbn:system/etc/customization/modem/amss_fsg_maple_meo_portugal_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_meteor_ireland_tar.mbn:system/etc/customization/modem/amss_fsg_maple_meteor_ireland_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_meteor_ireland_vowifi_only_tar.mbn:system/etc/customization/modem/amss_fsg_maple_meteor_ireland_vowifi_only_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_monaco_telecom_tar.mbn:system/etc/customization/modem/amss_fsg_maple_monaco_telecom_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_movistar_cl_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_movistar_cl_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_movistar_co_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_movistar_co_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_movistar_dtm_off_tar.mbn:system/etc/customization/modem/amss_fsg_maple_movistar_dtm_off_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_movistar_pe_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_movistar_pe_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_movistar_tar.mbn:system/etc/customization/modem/amss_fsg_maple_movistar_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_mtel_bulgaria_tar.mbn:system/etc/customization/modem/amss_fsg_maple_mtel_bulgaria_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_mtn_za_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_mtn_za_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_mts_ru_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_mts_ru_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_optus_au_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_optus_au_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_orange_france_pp_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_orange_france_pp_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_orange_france_tar.mbn:system/etc/customization/modem/amss_fsg_maple_orange_france_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_orange_france_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_orange_france_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_orange_group_lab_pp_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_orange_group_lab_pp_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_orange_poland_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_orange_poland_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_orange_poland_tar.mbn:system/etc/customization/modem/amss_fsg_maple_orange_poland_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_orange_poland_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_orange_poland_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_orange_romania_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_orange_romania_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_orange_slovakia_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_orange_slovakia_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_orange_spain_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_orange_spain_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_orange_tar.mbn:system/etc/customization/modem/amss_fsg_maple_orange_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_pelephone_israel_tar.mbn:system/etc/customization/modem/amss_fsg_maple_pelephone_israel_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_play_poland_vowifi_only_tar.mbn:system/etc/customization/modem/amss_fsg_maple_play_poland_vowifi_only_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_proximus_belgium_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_proximus_belgium_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_proximus_belgium_tar.mbn:system/etc/customization/modem/amss_fsg_maple_proximus_belgium_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_rogers_ca_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_rogers_ca_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_salt_switzerland_vowifi_only_tar.mbn:system/etc/customization/modem/amss_fsg_maple_salt_switzerland_vowifi_only_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_sfr_france_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_sfr_france_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_sfr_france_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_sfr_france_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_skt_kr_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_skt_kr_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_sky_uk_lab_vowifi_only_tar.mbn:system/etc/customization/modem/amss_fsg_maple_sky_uk_lab_vowifi_only_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_sky_uk_vowifi_only_tar.mbn:system/etc/customization/modem/amss_fsg_maple_sky_uk_vowifi_only_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_spark_nz_tar.mbn:system/etc/customization/modem/amss_fsg_maple_spark_nz_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_sunrise_switzerland_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_sunrise_switzerland_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_swisscom_switzerland_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_swisscom_switzerland_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_tar.mbn:system/etc/customization/modem/amss_fsg_maple_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_tdc_denmark_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_tdc_denmark_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telcel_mx_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telcel_mx_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telcel_mx_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telcel_mx_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_tele2_estonia_tar.mbn:system/etc/customization/modem/amss_fsg_maple_tele2_estonia_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_tele2_netherlands_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_tele2_netherlands_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_tele2_ru_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_tele2_ru_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_tele2_sweden_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_tele2_sweden_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telefonica_germany_volte_vilte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telefonica_germany_volte_vilte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telefonica_uk_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telefonica_uk_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telefonica_uk_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telefonica_uk_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telekom_croatia_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telekom_croatia_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telekom_czech_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telekom_czech_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telekom_germany_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telekom_germany_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telekom_greece_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telekom_greece_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telekom_hungary_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telekom_hungary_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telekom_netherlands_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telekom_netherlands_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telekom_poland_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telekom_poland_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telekom_slovakia_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telekom_slovakia_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telekom_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telekom_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telenor_denmark_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telenor_denmark_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telenor_norway_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telenor_norway_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telenor_sweden_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telenor_sweden_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telia_denmark_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telia_denmark_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telia_finland_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telia_finland_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telia_lithuania_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telia_lithuania_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telia_norway_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telia_norway_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telia_sweden_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telia_sweden_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_telstra_au_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_telstra_au_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_tim_br_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_tim_br_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_tim_italy_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_tim_italy_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_tmobile_austria_tar.mbn:system/etc/customization/modem/amss_fsg_maple_tmobile_austria_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_tmobile_us_tar.mbn:system/etc/customization/modem/amss_fsg_maple_tmobile_us_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_turkcell_turkey_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_turkcell_turkey_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_turkcell_turkey_tar.mbn:system/etc/customization/modem/amss_fsg_maple_turkcell_turkey_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_turkcell_turkey_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_turkcell_turkey_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_turktelekom_turkey_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_turktelekom_turkey_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vha_au_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vha_au_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vipnet_croatia_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vipnet_croatia_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_virgin_uk_tar.mbn:system/etc/customization/modem/amss_fsg_maple_virgin_uk_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vivo_br_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vivo_br_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vivo_br_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vivo_br_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodacom_za_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodacom_za_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone3_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone3_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone4_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone4_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone5_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone5_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_czech_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone_czech_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_germany_pp_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone_germany_pp_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_germany_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone_germany_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_global_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone_global_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_hungary_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone_hungary_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_italy_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone_italy_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_spain_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone_spain_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_turkey_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone_turkey_ims_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_turkey_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone_turkey_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_turkey_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone_turkey_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_uk_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone_uk_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_vodafone_uk_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_maple_vodafone_uk_volte_vowifi_tar.mbn \
+    vendor/sony/maple/proprietary/etc/customization/modem/amss_fsg_maple_wind_canada_tar.mbn:system/etc/customization/modem/amss_fsg_maple_wind_canada_tar.mbn \
     vendor/sony/maple/proprietary/etc/firmware/tzfingerprint.b00:system/etc/firmware/tzfingerprint.b00 \
     vendor/sony/maple/proprietary/etc/firmware/tzfingerprint.b01:system/etc/firmware/tzfingerprint.b01 \
     vendor/sony/maple/proprietary/etc/firmware/tzfingerprint.b02:system/etc/firmware/tzfingerprint.b02 \
@@ -159,6 +300,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple/proprietary/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:system/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
     vendor/sony/maple/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/sony/maple/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
+    vendor/sony/maple/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/sony/maple/proprietary/lib/vendor.semc.hardware.drm@1.0.so:system/lib/vendor.semc.hardware.drm@1.0.so \
     vendor/sony/maple/proprietary/lib/vendor.semc.hardware.secd@1.0.so:system/lib/vendor.semc.hardware.secd@1.0.so \
     vendor/sony/maple/proprietary/lib/vendor.semc.system.idd@1.0.so:system/lib/vendor.semc.system.idd@1.0.so \
@@ -324,6 +466,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple/proprietary/vendor/bin/secd:$(TARGET_COPY_OUT_VENDOR)/bin/secd \
     vendor/sony/maple/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/sony/maple/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
+    vendor/sony/maple/proprietary/vendor/bin/sony-modem-switcher:$(TARGET_COPY_OUT_VENDOR)/bin/sony-modem-switcher \
     vendor/sony/maple/proprietary/vendor/bin/spdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/spdaemon \
     vendor/sony/maple/proprietary/vendor/bin/ssr_diag:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_diag \
     vendor/sony/maple/proprietary/vendor/bin/ssr_dumper:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_dumper \
