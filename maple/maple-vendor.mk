@@ -400,6 +400,7 @@ PRODUCT_PACKAGES += \
     embms \
     ims \
     CNEService \
+    HotwordEnrollmentOKGoogleWCD9340 \
     qcrilmsgtunnel \
     qcrilhook
 PRODUCT_COPY_FILES += \
