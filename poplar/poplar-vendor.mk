@@ -834,7 +834,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/poplar/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/sony/poplar/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/sony/poplar/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
-    vendor/sony/poplar/proprietary/vendor/firmware/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn553_fw.so \
+    vendor/sony/poplar/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
     vendor/sony/poplar/proprietary/vendor/firmware/tzfingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b00 \
     vendor/sony/poplar/proprietary/vendor/firmware/tzfingerprint.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b01 \
     vendor/sony/poplar/proprietary/vendor/firmware/tzfingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b02 \
