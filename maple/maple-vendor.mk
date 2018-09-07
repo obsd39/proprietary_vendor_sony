@@ -215,6 +215,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/sony/maple/proprietary/etc/permissions/com.sonyericsson.idd.xml:system/etc/permissions/com.sonyericsson.idd.xml \
     vendor/sony/maple/proprietary/etc/permissions/com.sonymobile.getmore.api.xml:system/etc/permissions/com.sonymobile.getmore.api.xml \
+    vendor/sony/maple/proprietary/etc/permissions/com.sonymobile.miscta.xml:system/etc/permissions/com.sonymobile.miscta.xml \
     vendor/sony/maple/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/sony/maple/proprietary/etc/permissions/privapp-permissions-sony.xml:system/etc/permissions/privapp-permissions-sony.xml \
     vendor/sony/maple/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -228,6 +229,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/sony/maple/proprietary/framework/com.sonyericsson.idd_impl.jar:system/framework/com.sonyericsson.idd_impl.jar \
     vendor/sony/maple/proprietary/framework/com.sonymobile.getmore.api.jar:system/framework/com.sonymobile.getmore.api.jar \
+    vendor/sony/maple/proprietary/framework/com.sonymobile.miscta_impl.jar:system/framework/com.sonymobile.miscta_impl.jar \
     vendor/sony/maple/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/sony/maple/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/sony/maple/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
@@ -236,6 +238,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/sony/maple/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/sony/maple/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
+    vendor/sony/maple/proprietary/lib/libMiscTAApi.so:system/lib/libMiscTAApi.so \
+    vendor/sony/maple/proprietary/lib/libMiscTaWrapper.so:system/lib/libMiscTaWrapper.so \
     vendor/sony/maple/proprietary/vendor/lib/libblurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblurbuster.so \
     vendor/sony/maple/proprietary/lib/libcacao_client.so:system/lib/libcacao_client.so \
     vendor/sony/maple/proprietary/lib/libcacao_pal.so:system/lib/libcacao_pal.so \
@@ -244,8 +248,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/sony/maple/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/sony/maple/proprietary/vendor/lib/libhazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhazebuster.so \
-    vendor/sony/maple/proprietary/vendor/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimscamera_jni.so \
-    vendor/sony/maple/proprietary/vendor/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsmedia_jni.so \
+    vendor/sony/maple/proprietary/lib/libiddjni.so:system/lib/libiddjni.so \
+    vendor/sony/maple/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/sony/maple/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/sony/maple/proprietary/vendor/lib/libjni_blurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_blurbuster.so \
     vendor/sony/maple/proprietary/vendor/lib/libjni_chromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_chromaflash.so \
     vendor/sony/maple/proprietary/vendor/lib/libjni_dualcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_dualcamera.so \
@@ -317,6 +322,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/sony/maple/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/sony/maple/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/sony/maple/proprietary/lib64/libMiscTAApi.so:system/lib64/libMiscTAApi.so \
+    vendor/sony/maple/proprietary/lib64/libMiscTaWrapper.so:system/lib64/libMiscTaWrapper.so \
     vendor/sony/maple/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/sony/maple/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/sony/maple/proprietary/vendor/lib64/libblurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblurbuster.so \
@@ -326,10 +333,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple/proprietary/vendor/lib64/libclearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libclearsight.so \
     vendor/sony/maple/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/sony/maple/proprietary/vendor/lib64/libhazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhazebuster.so \
-    vendor/sony/maple/proprietary/app/ims/lib/arm64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so \
-    vendor/sony/maple/proprietary/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so \
-    vendor/sony/maple/proprietary/app/ims/lib/arm64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so \
-    vendor/sony/maple/proprietary/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so \
+    vendor/sony/maple/proprietary/lib64/libiddjni.so:system/lib64/libiddjni.so \
+    vendor/sony/maple/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
+    vendor/sony/maple/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/sony/maple/proprietary/vendor/lib64/libjni_blurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_blurbuster.so \
     vendor/sony/maple/proprietary/vendor/lib64/libjni_chromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_chromaflash.so \
     vendor/sony/maple/proprietary/vendor/lib64/libjni_clearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_clearsight.so \
@@ -400,6 +406,7 @@ PRODUCT_PACKAGES += \
     embms \
     ims \
     CNEService \
+    CustomizationSelector \
     HotwordEnrollmentOKGoogleWCD9340 \
     qcrilmsgtunnel \
     qcrilhook
@@ -1058,7 +1065,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so \
     vendor/sony/maple/proprietary/vendor/lib/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblqe.so \
     vendor/sony/maple/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
-    vendor/sony/maple/proprietary/vendor/lib/libmiscta.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiscta.so \
     vendor/sony/maple/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/sony/maple/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
     vendor/sony/maple/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
@@ -1402,7 +1408,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
     vendor/sony/maple/proprietary/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
     vendor/sony/maple/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
-    vendor/sony/maple/proprietary/vendor/lib64/libmiscta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiscta.so \
     vendor/sony/maple/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/sony/maple/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
     vendor/sony/maple/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
@@ -1528,6 +1533,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.server@2.0 \
     libaudio_log_utils \
     libgpustats \
+    libmiscta \
     libqmiservices \
     libsdm-disp-vndapis \
     libta \
