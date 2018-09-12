@@ -10,6 +10,6 @@ service sec_daemon /vendor/bin/secd
     setenv LD_PRELOAD libta_drm_ext.so
     user system
     group system
-    socket secd_devsec_sock stream 0660 system credmgr_client
-    socket secd_credmgr_sock stream 0660 system credmgr_client
+    socket secd_devsec_sock stream 0660 system vendor_credmgr_client
+    socket secd_credmgr_sock stream 0660 system vendor_credmgr_client
     class main
