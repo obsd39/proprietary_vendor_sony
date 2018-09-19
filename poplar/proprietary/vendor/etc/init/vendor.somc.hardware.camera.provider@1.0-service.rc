@@ -1,7 +1,7 @@
 service vendor.somc.hardware.camera-provider-1-0 /vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
     class hal
     user cameraserver
-    group camera audio input drmrpc trimarea credmgr_client
+    group camera audio input drmrpc vendor_trimarea vendor_credmgr_client
     ioprio rt 4
     capabilities SYS_NICE
     writepid /dev/cpuset/camera-daemon/tasks /dev/stune/top-app/tasks

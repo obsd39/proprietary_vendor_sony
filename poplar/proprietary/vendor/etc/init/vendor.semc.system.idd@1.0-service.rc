@@ -4,6 +4,6 @@
 #
 service vendor.semc.system.idd-1-0 /vendor/bin/hw/vendor.semc.system.idd@1.0-service
     class hal
-    user idd
-    group idd log inet trimarea
+    user vendor_idd
+    group vendor:idd log inet vendor_trimarea
     writepid /dev/cpuset/system-background/tasks

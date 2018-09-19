@@ -2,7 +2,7 @@
 service startup-logger /vendor/bin/startup-logger
    class late_start
    user root
-   group root system trimarea
+   group root system vendor_trimarea
    oneshot
    seclabel u:r:startup-logger:s0
 
