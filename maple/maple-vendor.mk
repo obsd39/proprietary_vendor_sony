@@ -404,7 +404,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     datastatusnotification \
     embms \
-    ims \
     CNEService \
     CustomizationSelector \
     HotwordEnrollmentOKGoogleWCD9340 \
