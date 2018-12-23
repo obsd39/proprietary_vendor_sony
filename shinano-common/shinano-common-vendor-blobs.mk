@@ -209,6 +209,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/hw/android.hardware.nfc@1.0-impl.so:system/vendor/lib/hw/android.hardware.nfc@1.0-impl.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/hw/nfc_nci.pn54x.default.so:system/vendor/lib/hw/nfc_nci.pn54x.default.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
