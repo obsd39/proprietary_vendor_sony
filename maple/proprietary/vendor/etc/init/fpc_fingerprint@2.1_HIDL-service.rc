@@ -5,3 +5,4 @@ service fps_hal /vendor/bin/hw/fpc_fingerprint@2.1_HIDL-service
     class late_start
     user system
     group system input
+    socket fpc_oem stream 0660 system system

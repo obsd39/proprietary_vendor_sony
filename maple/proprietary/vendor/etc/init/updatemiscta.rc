@@ -1,6 +1,0 @@
-service updatemiscta /vendor/bin/updatemiscta
-    class main
-    user vendor_updatemiscta
-    group vendor_trimarea
-    seclabel u:r:updatemiscta:s0
-    oneshot

@@ -1,4 +1,0 @@
-# Configurate TCP/IP kernel settings
-service mss_update /vendor/bin/mssconfig
-    class core
-    oneshot
