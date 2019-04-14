@@ -1,0 +1,8 @@
+# SONY: Startup Logger
+service startup-logger /system/bin/startup-logger
+   class late_start
+   user oem_2987
+   group system root oem_2993
+   oneshot
+   seclabel u:r:startup-logger:s0
+

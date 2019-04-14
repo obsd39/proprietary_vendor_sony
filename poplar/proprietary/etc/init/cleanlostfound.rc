@@ -1,0 +1,6 @@
+service cleanlostfound /system/bin/sh /system/etc/cleanlostfound.sh
+    oneshot
+    disabled
+    group system root oem_2987 cache
+    user root
+    seclabel u:r:lostfound:s0
