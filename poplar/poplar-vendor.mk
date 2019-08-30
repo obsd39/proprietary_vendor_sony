@@ -42,6 +42,45 @@ PRODUCT_COPY_FILES += \
     vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_claro_do_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_claro_do_tar.mbn \
     vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_claro_pe_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_claro_pe_ims_tar.mbn \
     vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dna_finland_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dna_finland_volte_vowifi_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_airtel_in_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_airtel_in_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_ais_th_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_ais_th_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_asiapacific_tw_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_asiapacific_tw_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_att_us_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_att_us_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_beeline_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_beeline_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_china_mobile_cn_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_china_mobile_cn_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_china_mobile_hk_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_china_mobile_hk_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_cht_tw_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_cht_tw_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_csl_hk_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_csl_hk_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_ctm_mo_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_ctm_mo_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_dtac_th_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_dtac_th_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_du_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_du_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_etisalat_ae_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_etisalat_ae_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_fareastone_tw_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_fareastone_tw_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_gteb_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_gteb_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_hutch_hk_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_hutch_hk_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_ir51_ir92_ims_gte_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_ir51_ir92_ims_gte_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_ir51_ir92_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_ir51_ir92_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_m1_sg_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_m1_sg_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_megafon_ru_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_megafon_ru_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_mts_ru_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_mts_ru_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_orange_poland_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_orange_poland_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_pccw_hk_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_pccw_hk_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_reliance_com_in_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_reliance_com_in_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_reliance_jio_in_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_reliance_jio_in_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_singtel_sg_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_singtel_sg_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_smartone_hk_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_smartone_hk_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_starhub_sg_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_starhub_sg_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_stc_sa_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_stc_sa_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_tele2_ru_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_tele2_ru_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_telkom_za_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_telkom_za_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_tmobile_us_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_tmobile_us_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_tmobile_us_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_tmobile_us_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_truemove_th_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_truemove_th_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_tstar_tw_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_tstar_tw_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_twm_tw_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_twm_tw_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_verizon_us_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_verizon_us_ims_tar.mbn \
+    vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_dsds_vodafone_in_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_dsds_vodafone_in_ims_tar.mbn \
     vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_ee_ims_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_ee_ims_tar.mbn \
     vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_elisa_estonia_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_elisa_estonia_tar.mbn \
     vendor/sony/poplar/proprietary/etc/customization/modem/amss_fsg_poplar_elisa_finland_volte_vowifi_tar.mbn:system/etc/customization/modem/amss_fsg_poplar_elisa_finland_volte_vowifi_tar.mbn \
