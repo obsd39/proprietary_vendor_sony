@@ -1,0 +1,5 @@
+# Configurate TCP/IP kernel settings
+service mss_update /system/bin/mssconfig
+    class core
+    oneshot
+    seclabel u:r:netd:s0

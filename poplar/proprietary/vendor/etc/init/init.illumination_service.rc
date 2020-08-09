@@ -1,0 +1,15 @@
+# Copyright (C) 2017 Sony Mobile Communications Inc.
+#
+# illumination_service configuration
+#
+
+# create directory for illumination_service
+on post-fs-data
+    mkdir /data/vendor/illumination_service 0770 system system
+
+service illumination /vendor/bin/hw/illumination_service
+    socket illumination stream 0660 system oem_2929
+    class hal
+    user root
+    writepid /dev/cpuset/system-background/tasks
+    shutdown critical

@@ -1,0 +1,36 @@
+# Copyright (C) 2017, 2018 Sony Mobile Communications Inc.
+#
+# touchbacklightd configuration
+#
+
+on property:init.svc.surfaceflinger=running
+    start touchbacklightd
+
+on property:init.svc.surfaceflinger=stopped
+    stop touchbacklightd
+
+on property:vendor.backlight_on=0 && property:vendor.touch_id=3
+    write /sys/devices/common_touch/touch/irq_enable 2
+on property:vendor.backlight_on=0 && property:vendor.touch_id=4
+    write /sys/devices/common_touch/touch/irq_enable 2
+
+on property:vendor.backlight_on=1 && property:vendor.touch_id=3
+    write /sys/devices/common_touch/touch/irq_enable 0
+on property:vendor.backlight_on=1 && property:vendor.touch_id=4
+    write /sys/devices/common_touch/touch/irq_enable 0
+
+on property:vendor.backlight_on=0 && property:vendor.touch_id=7
+    write /sys/devices/common_touch/touch/irq_enable 0
+on property:vendor.backlight_on=0 && property:vendor.touch_id=8
+    write /sys/devices/common_touch/touch/irq_enable 0
+
+on property:vendor.backlight_on=1 && property:vendor.touch_id=7
+    write /sys/devices/common_touch/touch/irq_enable 1
+on property:vendor.backlight_on=1 && property:vendor.touch_id=8
+    write /sys/devices/common_touch/touch/irq_enable 1
+
+service touchbacklightd /system/vendor/bin/hw/touchbacklightd
+    disabled
+    user system
+    group system
+    writepid /dev/cpuset/system-background/tasks

@@ -20,46 +20,6 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "CameraAddonPermission-release",
-	owner: "sony",
-	apk: "proprietary/app/CameraAddonPermission-release/CameraAddonPermission-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "CameraCommonPermission-release",
-	owner: "sony",
-	apk: "proprietary/app/CameraCommonPermission-release/CameraCommonPermission-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "CameraExtensionPermission-release",
-	owner: "sony",
-	apk: "proprietary/app/CameraExtensionPermission-release/CameraExtensionPermission-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "ImageProcessorPermission-release",
-	owner: "sony",
-	apk: "proprietary/app/ImageProcessorPermission-release/ImageProcessorPermission-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "QtiTelephonyService",
 	owner: "sony",
 	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
@@ -100,42 +60,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ArtFilterCamera-xxhdpi-release",
-	owner: "sony",
-	apk: "proprietary/priv-app/ArtFilterCamera-xxhdpi-release/ArtFilterCamera-xxhdpi-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "CNEService",
 	owner: "sony",
 	apk: "proprietary/priv-app/CNEService/CNEService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "CameraCommon",
-	owner: "sony",
-	apk: "proprietary/priv-app/CameraCommon/CameraCommon.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "CameraPanorama-release",
-	owner: "sony",
-	apk: "proprietary/priv-app/CameraPanorama-release/CameraPanorama-release.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -155,20 +82,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SomcMovieCreator-release",
+	name: "HotwordEnrollmentOKGoogleWCD9340",
 	owner: "sony",
-	apk: "proprietary/priv-app/SomcMovieCreator-release/SomcMovieCreator-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "SoundPhotoCamera-xxhdpi-release",
-	owner: "sony",
-	apk: "proprietary/priv-app/SoundPhotoCamera-xxhdpi-release/SoundPhotoCamera-xxhdpi-release.apk",
+	apk: "proprietary/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

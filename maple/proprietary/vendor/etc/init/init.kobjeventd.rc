@@ -1,0 +1,10 @@
+# Copyright (C) 2017 Sony Mobile Communications Inc.
+#
+# kobjeventd configuration
+#
+
+# Uevent-observer
+service kobjeventd /vendor/bin/hw/kobjeventd
+    user system
+    group system
+    class main
